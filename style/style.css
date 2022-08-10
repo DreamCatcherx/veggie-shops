@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+    background-image: url(../img/297672297_1281034119271693_5018319232696500117_n.png);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+header {
+    width: 100%;
+    padding: 50px;
+}
+header ul {
+    width: 500px;
+    position: absolute;
+    top: 50px;
+    right: 150px;
+}
+header ul li {
+    background-color: #969494;
+    border-radius: 0 35px 0 35px;
+    padding: 10px 20px;
+}
+header ul a {
+    padding: 5px 10px;
+    color: #000000;
+}
+.active {
+    background-color: #099c09;
+}
+.active a {
+    color: aliceblue;
+}
+.mainbox {
+    width: 640px;
+    height: 420px;
+    position: absolute;
+    left: 630px;
+    top: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #969494;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxPic {
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/biodegradable\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.boxPic2 {
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/detox\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boxPic3{
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/keto\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boxPic4 {
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/cereal\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boxPic5 {
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/salad\ 1.png);
+}
+.boxPic6 {
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/vitamin\ 1.png);
+}
